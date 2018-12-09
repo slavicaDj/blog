@@ -1,5 +1,42 @@
-# Welcome to my blog!
+## Welcome to my Outreachy blog!
 
 My name is Slavica and I'm Outreachy participant for December-March 2018/19 round.
-I'll be working on Git's project "turn `git add -i` into built in".
+In the next three months I'll be working on Git's project "Turn `git add -i` into built-in" 
+with Johannes Schindelin as my mentor.
+I am final year Computer Science student, and this is my first time contributing to open-source. 
 I've always loved programming and I'm honored having opportunity to participate in such project.
+On this blog, I will be publishing posts weekly about my experience.I hope that would benefit 
+future applicants and spread word about Outreachy.
+
+### How I applied to Outreachy
+
+I've first heard of Outreachy two years ago from my friend who volunteered from Mozilla.
+This round was right moment to apply, since I'm almost done with my college.  
+
+**My motivation**  
+* learning new things
+* working with experts
+* meeting international friends
+* and possibly traveling!  
+
+**How it went**   
+All neccessary information was on Outreachy site: [https://www.outreachy.org/](https://www.outreachy.org/)
+It says all about projects, deadlines, prerequisites, mentors, communication channels, etc.
+There I picked my project, found out about Gitter, contacted mentor - everything was pretty straightforward.  
+And yes, I think that I have the greatest mentor ever - from the beginning, he is more than helpful, answering all
+questions (and the nooby ones too), patient, calm, and on top of that one of the core Git contributors!  
+My first contribution was based around client's request I found on git mailing list. This client wanted to use 
+`git stash` command without being forced to configure user.name and user.email.
+I do have experience with using git, shell scripts, C, etc, but this is something I worked in some period of time, 
+and I sure needed some recalling. Also, I had to learn how to communicate through mailing list to send patches and replies.
+I was unsecure at moments, but I figured it all out, and learned a lot along the way!
+
+**Should you apply?**  
+Yes of course! I would like to encourage everyone who is hesitant whether to apply or not: go for it! If you are 
+passionate about what you do and eager to learn, don't be afraid about things you don't know.
+
+#### Week 1 - Breaking the ice
+
+
+
+ 
