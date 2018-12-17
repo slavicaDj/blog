@@ -37,4 +37,9 @@ passionate about what you do and eager to learn, don't be afraid about things yo
 
 
 
- 
+### First steps
+
+It's been two weeks since I'm working on my project "Turn `git add -i` into built-in". The project is essentially about translating 
+`git add -i` command from Perl script to C. As I already described, I made my contribution while I was applying for project, but that was just just "scratching the surface". Now I am able and commited to truly explore Git. I am learning something new every single day on this internship, and this is just the beginning.  
+These two weeks were about applying patch series from (former) Git contributor Daniel, resolving merge conflicts, fixing build errors, some coding, but most of the time getting myself familiar with the code. Although I didn't do much in this stage, it was interesting to poke around, explore and put pieces of puzzle together.  
+Perhaps the most interesting moment was enabling TTY on Windows.
