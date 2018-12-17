@@ -6,8 +6,10 @@ with Johannes Schindelin as my mentor.
 I am final year Computer Science student, and this is my first time contributing to open-source. 
 I've always loved programming and I'm honored having opportunity to participate in such project.
 On this blog, I will be publishing posts weekly about my experience. I hope that would benefit 
-future applicants and spread the word about Outreachy.
-
+future applicants and spread the word about Outreachy.  
+  
+  
+  
 ### How I applied to Outreachy
 
 I've first heard of Outreachy two years ago from my friend who volunteered from Mozilla.
@@ -34,9 +36,9 @@ I was unsecure at moments, but I figured it all out, and learned a lot along the
 **Should you apply?**  
 Yes of course! I would like to encourage everyone who is hesitant whether to apply or not: go for it! If you are 
 passionate about what you do and eager to learn, don't be afraid about things you don't know.
-
-
-
+  
+  
+  
 ### First steps
 
 It's been two weeks since I'm working on my project "Turn `git add -i` into built-in". The project is essentially about translating 
