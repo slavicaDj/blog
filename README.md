@@ -52,3 +52,13 @@ test_expect_success TTY 'show help from add--helper' '
 ```
 But, it didn't work. It said TTY is missing. I thought I've done something wrong, and when I heard from my mentor he realized that it's because TTY is not enabled on Windows. I thought: that's it, I need to move on Linux, problem solved. I didn't even consider that this issue can be addressed.  
 After few minutes, my mentor said that we can "patch the code so that an environment variable, say, GIT_TEST_PRETEND_TTY can force Git to think that it is talking to a TTY." I was truly amazed. In the end, all it took were few lines (three to be exact). It would never occur to me that "inconvenience" like this one could be solved, much less in a few minutes. This is thinking outside of the box.  
+  
+  
+  
+### Everybody struggles
+  
+This is the post for everyone out there who is struggling and thinks they're not good enough because of it. Third week of internship was about letting others know that we all have moments when we are stuck. Intens and mentors wrote about their experience on public chat, and this is mine:
+> I usually struggle to ask questions that are not "smart enough". But I must admit Outreachy helped me do this more often. For example, in > the first days of internship, I had to use shell script to apply series of patches. I just needed to supply it with link. I did that, but > with spare brackets, and of course, it didn't work. When I asked mentor about this, he realized problem, obviously. 
+> This was painfully simple to solve, but very difficult to ask. I was a bit embarrassed, but after this I find it a lot easier to ask for help.
+I usually don't share similar experiences, especially on public chats, but Outreachy community encouraged me to do so. 
+Important thing is not to see this as something abnormal. It is good idea to take a break, relax, and ask for help. Everyone is having difficulties. The problem is, we only see one's success - we don't even consider how much they struggled. And just think: is it possible to learn something completely new, to wrap your head around concepts you never heard of, to grow and never get stuck along the way?
