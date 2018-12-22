@@ -58,7 +58,8 @@ After few minutes, my mentor said that we can "patch the code so that an environ
 ### Everybody struggles
   
 This is the post for everyone out there who is struggling and thinks they're not good enough because of it. Third week of internship was about letting others know that we all have moments when we are stuck. Intens and mentors wrote about their experience on public chat, and this is mine:
-> I usually struggle to ask questions that are not "smart enough". But I must admit Outreachy helped me do this more often. For example, in > the first days of internship, I had to use shell script to apply series of patches. I just needed to supply it with link. I did that, but > with spare brackets, and of course, it didn't work. When I asked mentor about this, he realized problem, obviously. 
+> I usually struggle to ask questions that are not "smart enough". But I must admit Outreachy helped me do this more often. For example, in the first days of internship, I had to use shell script to apply series of patches. I just needed to supply it with link. I did that, but with spare brackets, and of course, it didn't work. When I asked mentor about this, he realized problem, obviously. 
 > This was painfully simple to solve, but very difficult to ask. I was a bit embarrassed, but after this I find it a lot easier to ask for help.
+
 I usually don't share similar experiences, especially on public chats, but Outreachy community encouraged me to do so. 
 Important thing is not to see this as something abnormal. It is good idea to take a break, relax, and ask for help. Everyone is having difficulties. The problem is, we only see one's success - we don't even consider how much they struggled. And just think: is it possible to learn something completely new, to wrap your head around concepts you never heard of, to grow and never get stuck along the way?
