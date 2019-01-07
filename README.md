@@ -63,3 +63,30 @@ This is the post for everyone out there who is struggling and thinks they're not
 
 I usually don't share similar experiences, especially on public chats, but Outreachy community encouraged me to do so. 
 Important thing is not to see this as something abnormal. It is good idea to take a break, relax, and ask for help. Everyone is having difficulties. The problem is, we only see one's success - we don't even consider how much they struggled. And just think: is it possible to learn something completely new, to wrap your head around concepts you never heard of, to grow and never get stuck along the way?
+
+
+
+### More about Git and my project
+  
+As I said in previous posts, I am Git intern via Outreachy. For those who haven't heard of Git (although you most probably did if you do programming): it is distributed version-control system, which enables programmers to efficiently share, maintain (its history) and experiment with their code. Word "distributed" in description stands there because:
+> every developer's working copy of the code is also a repository that can contain the full history of all changes.[1]  
+
+This means there is not one place where all code is being kept.  
+  
+Git community's job is maintaining Git and making it more awesome (like it's not already:)): upgrading, answering user's questions, fixing existing bugs etc.. And from what I can see, most of the Git's contributors are highly skilled and do no less then amazing. There is so much to learn from them. When I was first applied for Git, during that time, I was merely trying to code, but to get to feel how community works, what are coding guidelines, how to communicate, how to make patches... 
+
+Now I am working on project "Turn `git add -i` into built-in": `git add -i` is one of the git's commands. It is somewhat similar to `git add`, which purpose is to tell git to track file(s) you added with that command. But, the difference the two is that the former is in **interactive** mode.  For example, if you runn `git add -i`, you will get menu like this [2]:
+```
+  *** Commands ***
+      1: status       2: update       3: revert       4: add untracked
+      5: patch        6: diff         7: quit         8: help
+    What now> 1
+```
+You can choose between the options either by typing a number, or letters that can uniquely select one of them.  
+So, what do I do? I am turning this command into built-in. Right now, `git add -i` is written in Perl.  
+
+[1][https://www.atlassian.com/git/tutorials/what-is-git](https://www.atlassian.com/git/tutorials/what-is-git)  
+[2][https://git-scm.com/docs/git-add](https://git-scm.com/docs/git-add)  
+
+To be continued...
+
