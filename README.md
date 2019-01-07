@@ -75,7 +75,7 @@ This means there is not one place where all code is being kept.
   
 Git community's job is maintaining Git and making it more awesome (like it's not already:)): upgrading, answering user's questions, fixing existing bugs etc.. And from what I can see, most of the Git's contributors are highly skilled and do no less then amazing. There is so much to learn from them. When I was first applied for Git, during that time, I was merely trying to code, but to get to feel how community works, what are coding guidelines, how to communicate, how to make patches... 
 
-Now I am working on project "Turn `git add -i` into built-in": `git add -i` is one of the git's commands. It is somewhat similar to `git add`, which purpose is to tell git to track file(s) you added with that command. But, the difference the two is that the former is in **interactive** mode.  For example, if you runn `git add -i`, you will get menu like this [2]:
+Now I am working on project "Turn `git add -i` into built-in": `git add -i` is one of the git's commands. It is somewhat similar to `git add`, which purpose is to tell git to track file(s) you added with that command. But, the difference the two is that the former is in **interactive** mode.  For example, if you run `git add -i`, you will get menu like this [2]:
 ```
   *** Commands ***
       1: status       2: update       3: revert       4: add untracked
@@ -83,10 +83,17 @@ Now I am working on project "Turn `git add -i` into built-in": `git add -i` is o
     What now> 1
 ```
 You can choose between the options either by typing a number, or letters that can uniquely select one of them.  
-So, what do I do? I am turning this command into built-in. Right now, `git add -i` is written in Perl.  
+So, what do I do? I am turning this command into built-in. Right now, `git add -i` is written in Perl script.  
+I need to re-write it in C. Why do I do that? Because in that way, we achieve better portability, performance, and all the good reasons.  
+And since I mentioned selection one of the `git add -i` options, at the very this point on my internship, I'm trying to "translate" Perl script's way of dealing with unique prefixes into C. Besides doing its job, this translated part needs to do it with reasonable complexity and without overheads.  
+
+I am so grateful to be part of Git's community and work on this project. So far, I've learned to use Git much better: rebasing, squashing, splitting, amending commits -- all the things that I wasn't too familiar with before. Also, I've found out more about Git's codebase.  
+For example, test suite -- where to write tests (there are interesting rules about this), get to know syntax, use integrated commands.  
+Code is written by high standards. I've learned (or still trying:) to write code respecting them and other established rules. All things matter, including how you use spaces and tabs.  
+Also, not everything is explained in comments: that's why command `git grep` introduced to me by mentor was very helpful. Said command searches through all files and find all occurrences of specified string. I used it every time I wasn't clear on how to use some structure, command, or constant. Of course, my mentor is always there to help if I can't do it out on my own. :)  
+This was interesting way to figure things out, and I didn't have chance to do it before.  
+
+And in the beginning, almost everything seemed confusing and unfamiliar. Git is a huge project, and I took my time getting to know it. But I wouldn't like the other way. I know that if I struggle, put a lot of effort, I am on the right path. That only means I will grow and learn more. The most important thing here is to never stop wondering, be eager and excited. That way everything else will sort out.
 
 [1][https://www.atlassian.com/git/tutorials/what-is-git](https://www.atlassian.com/git/tutorials/what-is-git)  
-[2][https://git-scm.com/docs/git-add](https://git-scm.com/docs/git-add)  
-
-To be continued...
-
+[2][https://git-scm.com/docs/git-add](https://git-scm.com/docs/git-add)
