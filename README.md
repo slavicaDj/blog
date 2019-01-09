@@ -84,7 +84,7 @@ Now I am working on project "Turn `git add -i` into built-in": `git add -i` is o
 ```
 You can choose between the options either by typing a number, or letters that can uniquely select one of them.  
 So, what do I do? I am turning this command into built-in. Right now, `git add -i` is written in Perl script.  
-I need to re-write it in C. Why do I do that? Because in that way, we achieve better portability, performance, and all the good reasons.  
+I need to re-write it in C. Why do I do that? Because in that way, we achieve better portability, performance, and for all good reasons.  
 And since I mentioned selection one of the `git add -i` options, at the very this point on my internship, I'm trying to "translate" Perl script's way of dealing with unique prefixes into C. Besides doing its job, this translated part needs to do it with reasonable complexity and without overheads.  
 
 I am so grateful to be part of Git's community and work on this project. So far, I've learned to use Git much better: rebasing, squashing, splitting, amending commits -- all the things that I wasn't too familiar with before. Also, I've found out more about Git's codebase.  
@@ -94,6 +94,13 @@ Also, not everything is explained in comments: that's why command `git grep` int
 This was interesting way to figure things out, and I didn't have chance to do it before.  
 
 And in the beginning, almost everything seemed confusing and unfamiliar. Git is a huge project, and I took my time getting to know it. But I wouldn't like the other way. I know that if I struggle, put a lot of effort, I am on the right path. That only means I will grow and learn more. The most important thing here is to never stop wondering, be eager and excited. That way everything else will sort out.
+
+To condense everything in this post, I'll mention things that I would say to my past-self, when I first applied to Outreachy:
+* Believe in yourself, you are up to the task!
+* Please ask more questions, no matter how simple
+* Don't be afraid of failure
+* Don't think less of yourself if you don't know or understand something, you will learn it
+* Don't stress over code reviews, you will get your first patch merged eventually
 
 [1][https://www.atlassian.com/git/tutorials/what-is-git](https://www.atlassian.com/git/tutorials/what-is-git)  
 [2][https://git-scm.com/docs/git-add](https://git-scm.com/docs/git-add)
