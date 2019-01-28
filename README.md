@@ -140,7 +140,7 @@ Then there are a lot of patch parsing/reassembling functions up until (and inclu
 This concludes the timeline so far, as far as my best guess of a realistic one goes, and we'll have to take it from there, when we reach that point.
 
 **What goals have you met?**  
-I've done everything like planned in timeline, except for `list_and_choose` function, which according to my timeline should've been finished four days ago. I've actually wrote initial draft of that function, but it needs more polishing, refractoring, etc.
+I've done everything like planned in timeline, except for `list_and_choose` function, which according to my timeline should've been finished by 22nd January. I've actually wrote initial draft of that function, but it needs more polishing, refractoring, etc.
 
 **What have you accomplished in the first half of your internship?**  
 The most important thing for me is that I learned so much, and I'm still learning. I also got more confident when writing code and asking questions. As for project timeline, I'm not sure if I'm going to do everything planned, but I hope I'll get close to it.
