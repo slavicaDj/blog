@@ -109,7 +109,7 @@ To condense everything in this post, I'll mention things that I would say to my 
 
 In the application process, all Outreachy participants should consult their mentor and plan the project timeline. This week, we're supposed to reflect on that timeline, and say what things went different than expected. I'm going to answer some questions that were given as guidance for this week blog post.
 
-**What was your original internship project timeline?**
+**What was your original internship project timeline?**  
 04.12.2018. 
 First things first: the most successful strategy to convert a script to a built-in appears to introduce a built-in helper first, extracting functionality from the script and then calling the helper from the script.
 A good example to follow is 3d5ec65. It introduces a new helper, written in C, and we should do the same, following the same naming convention `git-stash--helper`: we should call our helper `git-add--helper`. I would even recommend introducing the helper without any functionality first, just to get those changes out of the way: new file builtin/add--helper.c, then the associated changes in `Makefile`, `builtin.h`, `git.c` and `.gitignore`.
@@ -139,23 +139,23 @@ Then there are a lot of patch parsing/reassembling functions up until (and inclu
 `prompt_single_character` will be tricky; I do not think there is a POSIX way to do that, so we will have to figure something out that is not too un-portable.
 This concludes the timeline so far, as far as my best guess of a realistic one goes, and we'll have to take it from there, when we reach that point.
 
-**What goals have you met?**
+**What goals have you met?**  
 I've done everything like planned in timeline, except for `list_and_choose` function, which according to my timeline should've been finished four days ago. I've actually wrote initial draft of that function, but it needs more polishing, refractoring, etc.
 
-**What have you accomplished in the first half of your internship?**
+**What have you accomplished in the first half of your internship?**  
 The most important thing for me is that I learned so much, and I'm still learning. I also got more confident when writing code and asking questions. As for project timeline, I'm not sure if I'm going to do everything planned, but I hope I'll get close to it.
 
-**What project goals took longer than expected?**
+**What project goals took longer than expected?**  
 One of the goals of project was to translate function `find_unique_prefixes`. In the original version, this function relied on trie structure. First I looked around the codebase to find such implementation, and there were two, but none of them weren't what I really needed, so I asked my mentor for help and he suggested different approach. It took me time to realize and implement it. I asked my mentor multiple times to help me with it. I really didn't anticipate I will need to work so much on this function.
 
-**Why did those project goals take longer than expected?**
+**Why did those project goals take longer than expected?**  
 I'm not sure why I had so much problem with function I described in previous question. It wasn't anything too complicated, but I kept hitting roadblock and failing to understand how to do it. When I finally finished, it looked quite straightforward. Whatever the reason was, it's good I had my mentor's help and I'm truly grateful for that.
 
-**What would you do differently if you were starting the project over?**
+**What would you do differently if you were starting the project over?**  
 I would probably stress less and ask more questions.
 
-**Which original goals needed to be modified?**
+**Which original goals needed to be modified?**  
 Since I used patch series of another Git contributor as head-start, I didn't have to write some portion of the code for the project, but since patches were outdated, I needed to work on applying them, adapting them, fixing merge conflicts, etc. Also, since I didn't used trie  in that `find_unique_prefixes` function, I didn't translate `update_trie` function as well.
 
-**What is your new plan for the second half of the internship?**
+**What is your new plan for the second half of the internship?**  
 Since I'm pretty much following initial plan and it seems appropriate, I don't have new one at this point. I am few days late according to the timeline, but that is totally fine, since timelines are usually not strictly followed, and one usually gets stuck in the way.
