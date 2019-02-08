@@ -159,3 +159,83 @@ Since I used patch series of another Git contributor as head-start, I didn't hav
 
 **What is your new plan for the second half of the internship?**  
 Since I'm pretty much following initial plan and it seems appropriate, I don't have new one at this point. I am few days late according to the timeline, but that is totally fine, since timelines are usually not strictly followed, and one usually gets stuck in the way.
+  
+  
+  
+### Git Merge & FOSDEM
+
+Me, as well as other Outreachy interns have the travelling stipend of $500. We can use it for trip to conference. 
+In my case, I went to Git Merge and FOSDEM. It was convinient that both were in consecutive days and in the same city - Brussels.
+I am passionate both about travelling and tech, so this was the best possible trip for me.
+
+**Git Merge**
+**January 30 & February 01**
+
+Git Merge lasted for two days:
+* January  30  Workshops / Contributor Summit
+* February 01  The main conference
+
+So the first day atendees either go to workshops, or to the Contributor Summit. I was privileged to go to the later. 
+Contributor Summit is a meeting of a closed type - only contributors from Git ecosystem are eligible to attend.
+And they gather to discuss about present (problems) and future of the Git.
+You can imagine how excited I was to know I'll be there.
+
+Meeting started at 10am. All of us were gathered in the same room, found a place and plug for our laptop and started 
+introducing ourselfs. Also, there was a white board, where we could write about topics we wish to discuss that day.
+First person I met was Elijah Newren. He works in a company and makes contributions for Git in his spare time. And he came to
+Brussels all the way back from America. The next person was my mentor - Johannes Schindelin. He's been so supportive during the
+internship and we hear from each other almost every day, so it was great to meet him in person.
+I also met Olga Telezhnaya, previous Git intern with Outreachy. The interesting thing was that I came across her blog some time
+ago and really enjoyed reading it. Some things I read there really stucked with me and were helpful during the whole process
+of my internship. I didn't know she will attend, and I'm glad she did. It was interesting to talk to someone who has been
+where I am now, and to see how they're going, and what they have to say.
+
+After some time, meeting officially started. Jeff King (Peff) was leading the event, suggesting what topics to discuss next.
+Some of the topics were:
+* Fetch response CDN of loading
+* New hash
+* Fetch response sideband-all
+* Protocol v2 for push
+* Partial clones
+* GitGitGadget
+* Table discussions: Merge, GSoc & Outreachy, Structured logging, Overview of Big
+  I was at the GSoc & Outreachy table. We talked about how time consuming is mentoring, what are the things that mentor should
+  do to help intern, who will be the next mentor for GSoc, etc.
+I found this very valuable experience. First of all, I get to know what's happening in Git, what are the pitfalls and plans
+for the future. And I get to hear that from core contributors, people working for Google, Github, Microsoft. And after a whole
+day listening about advanced Git, concepts, commands, I really think I connected some dots and I asked myself some useful questions.
+  
+    
+Second day, or the Main conference day was also pretty interesting. It was full of amazing talks. There were people from various
+areas where Git is used. Speakers from Google, Github and Microsoft talked about how they improved Git in terms of scalability, security
+and performance. Others talked about how they use Git - whether they are game developer, designer, lawyer(?!).
+I think they all presented Git in the best light and contributed to make Git look like what it is - an awesome software.
+
+I met a lot of people. They all had their story why they're on Git Merge and what they do for living. I was particulary puzzled
+to meet some of those people and see them later on stage! They were acting like they are regular atendees, but believe me, they
+are awesome, and so are their talks.
+What was also pleasing to see is that people are so positive about Outreachy. Everyone I talked to thought that Outreachy is amazing project.
+At the end of the day, I was sad that Git Merge is over. I learned a lot and met great people. I truly hope I'll join it again in future.
+
+**FOSDEM**
+**February 02 & February 03**
+
+FOSDEM is massive open-source conference, and it's free. That is why it was sooo crowded. I don't know if I went to at least one talk as originally planned.
+Both FOSDEM days had the same concept. There were booths, talks, stands, bars and job corner. I checked out all of those contents.
+Most of the talks I attended were in Jenkins -- it is huge auditorium so it was easy (most of the time) to find place there.
+I am really sad I didn't make it to Decentralized Internet and Privacy, Java, Go and few others -- those rooms where full the whole time.
+I heard about Mozilla, blockchain, TOR, DNS over HTTPS, Matrix, software freedom, Netflix and FreeBSD so I think I made a solid choice!
+I had few highlights: meeting Deb Nicholson(Software Freedom Conservancy) after she gave interesting talk about the ethical considerations of blockchain,
+hearing Roger Dingledine (TOR) answering questions for small group of people after the talk and meeting other Outreachy interns.
+I am really happy that I met Teja, Lenka and Laura! It was great to hear what they are working on, how they like their project, what do they think about 
+Outreachy (we all agreed it's awesome, of course).
+I stopped by almost all stands, and found out about projects I never heard of, and which are pretty amazing. I didn't know there is open-source
+software for say, hosting files on your machine (I can't remember the name). Or Bazel, build and test tool. Cryptopad - encrypted collaborative editor.
+They were the others well-known like Mozilla, TOR, Fedora, Red Hat...
+
+After saying all this, there is no surprise in saying that the most important thing for me here was discovery -- I really didn't know how enormous 
+open-source community is, and how many many people are supporting it and contributing. Before Outreachy, I didn't even think about that.
+I didn't contribute anywhere. If I encountered useful open-source software - I would think "cool", and continue with my life.
+I learned on FOSDEM that there are numerous splendid open-source projects. They are all giving to the community, and so should we, by contributing.
+
+[3] [https://www.webopedia.com/TERM/C/CDN.html] (https://www.webopedia.com/TERM/C/CDN.html)
