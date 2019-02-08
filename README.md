@@ -223,7 +223,7 @@ At the end of the day, I was sad that Git Merge is over. I learned a lot and met
 
 FOSDEM is massive open-source conference, and it's free. That is why it was sooo crowded. I don't know if I went to at least one talk as originally planned.  
 Both FOSDEM days had the same concept. There were booths, talks, stands, bars and job corner. I checked out all of those contents.
-Most of the talks I attended were in Jenkins -- it is huge auditorium so it was easy (most of the time) to find place there.  
+Most of the talks I attended were in Jansons -- it is huge auditorium so it was easy (most of the time) to find place there.  
 I am really sad I didn't make it to Decentralized Internet and Privacy, Java, Go and few others -- those rooms where full the whole time.
 I heard about Mozilla, blockchain, TOR, DNS over HTTPS, Matrix, software freedom, Netflix and FreeBSD so I think I made a solid choice!  
 
