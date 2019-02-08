@@ -201,6 +201,7 @@ Some of the topics were:
 * Table discussions: Merge, GSoc & Outreachy, Structured logging, Overview of Big
   I was at the GSoc & Outreachy table. We talked about how time consuming is mentoring, what are the things that mentor should
   do to help intern, who will be the next mentor for GSoc, etc.  
+  
 I found this very valuable experience. First of all, I get to know what's happening in Git, what are the pitfalls and plans
 for the future. And I get to hear that from core contributors, people working for Google, Github, Microsoft. And after a whole
 day listening about advanced Git, concepts, commands, I really think I connected some dots and I asked myself some useful questions.
