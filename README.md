@@ -22,7 +22,7 @@ This round was right moment to apply, since I'm almost done with my college.
 * and possibly traveling!  
 
 **How it went**   
-All neccessary information was on Outreachy site: [https://www.outreachy.org/](https://www.outreachy.org/)
+All necessary information was on Outreachy site: [https://www.outreachy.org/](https://www.outreachy.org/)
 It says all about projects, deadlines, prerequisites, mentors, communication channels, etc.
 There I picked my project, found out about Gitter, contacted mentor - everything was pretty straightforward.  
 And yes, I think that I have the greatest mentor ever - from the beginning, he is more than helpful, answering all
@@ -31,7 +31,7 @@ My first contribution was based around client's request I found on git mailing l
 `git stash` command without being forced to configure user.name and user.email.
 I do have experience with using git, shell scripts, C, etc, but this is something I worked in some period of time, 
 and I sure needed some recalling. Also, I had to learn how to communicate through mailing list to send patches and replies.
-I was unsecure at moments, but I figured it all out, and learned a lot along the way!
+I was insecure at moments, but I figured it all out, and learned a lot along the way!
 
 **Should you apply?**  
 Yes of course! I would like to encourage everyone who is hesitant whether to apply or not: go for it! If you are 
@@ -42,10 +42,10 @@ passionate about what you do and eager to learn, don't be afraid about things yo
 ### First steps
 
 It's been two weeks since I'm working on my project "Turn `git add -i` into built-in". The project is essentially about translating 
-`git add -i` command from Perl script to C. As I already described, I made my contribution while I was applying for project, but that was just just "scratching the surface". Now I am able and commited to truly explore Git. I am learning something new every single day on this internship, and this is just the beginning.  
+`git add -i` command from Perl script to C. As I already described, I made my contribution while I was applying for project, but that was just just "scratching the surface". Now I am able and committed to truly explore Git. I am learning something new every single day on this internship, and this is just the beginning.  
 These two weeks were about applying patch series from (former) Git contributor Daniel, resolving merge conflicts, fixing build errors, some coding, but most of the time getting myself familiar with the code. Although I didn't do much in this stage, it was interesting to poke around, explore and put pieces of puzzle together.  
 Perhaps the most interesting moment was enabling TTY on Windows.  
-And here goes the story. I was testing the code I wrote, and since I wanted to make sure output it gives is the identical to expected, that meant testing output color as well. My mentor introduced me with function `test_decode_color` that will do that. (Neat function, I thought). Using this function requires that test has TTY ticked. This esentially means just writing TTY before test name:
+And here goes the story. I was testing the code I wrote, and since I wanted to make sure output it gives is the identical to expected, that meant testing output color as well. My mentor introduced me with function `test_decode_color` that will do that. (Neat function, I thought). Using this function requires that test has TTY ticked. This essentially means just writing TTY before test name:
 ```
 test_expect_success TTY 'show help from add--helper' '
   ...
@@ -57,7 +57,7 @@ After few minutes, my mentor said that we can "patch the code so that an environ
   
 ### Everybody struggles
   
-This is the post for everyone out there who is struggling and thinks they're not good enough because of it. Third week of internship was about letting others know that we all have moments when we are stuck. Intens and mentors wrote about their experience on public chat, and this is mine:
+This is the post for everyone out there who is struggling and thinks they're not good enough because of it. Third week of internship was about letting others know that we all have moments when we are stuck. Interns and mentors wrote about their experience on public chat, and this is mine:
 > I usually struggle to ask questions that are not "smart enough". But I must admit Outreachy helped me do this more often. For example, in the first days of internship, I had to use shell script to apply series of patches. I just needed to supply it with link. I did that, but with spare brackets, and of course, it didn't work. When I asked mentor about this, he realized problem, obviously. 
 > This was painfully simple to solve, but very difficult to ask. I was a bit embarrassed, but after this I find it a lot easier to ask for help.
 
@@ -140,7 +140,7 @@ Then there are a lot of patch parsing/reassembling functions up until (and inclu
 This concludes the timeline so far, as far as my best guess of a realistic one goes, and we'll have to take it from there, when we reach that point.
 
 **What goals have you met?**  
-I've done everything like planned in timeline, except for `list_and_choose` function, which according to my timeline should've been finished by 22nd January. I've actually wrote initial draft of that function, but it needs more polishing, refractoring, etc.
+I've done everything like planned in timeline, except for `list_and_choose` function, which according to my timeline should've been finished by 22nd January. I've actually wrote initial draft of that function, but it needs more polishing, refactoring, etc.
 
 **What have you accomplished in the first half of your internship?**  
 The most important thing for me is that I learned so much, and I'm still learning. I also got more confident when writing code and asking questions. As for project timeline, I'm not sure if I'm going to do everything planned, but I hope I'll get close to it.
@@ -175,18 +175,18 @@ Git Merge lasted for two days:
 * January  30  Workshops / Contributor Summit
 * February 01  The main conference
 
-So the first day atendees either go to workshops, or to the Contributor Summit. I was privileged to go to the later. 
+So the first day attendees either go to workshops, or to the Contributor Summit. I was privileged to go to the later. 
 Contributor Summit is a meeting of a closed type - only contributors from Git ecosystem are eligible to attend.
 And they gather to discuss about present (problems) and future of the Git.
 You can imagine how excited I was to know I'll be there.  
   
 Meeting started at 10am. All of us were gathered in the same room, found a place and plug for our laptop and started 
-introducing ourselfs. Also, there was a white board, where we could write about topics we wish to discuss that day.  
+introducing ourselves. Also, there was a white board, where we could write about topics we wish to discuss that day.  
 First person I met was Elijah Newren. He works in a company and makes contributions for Git in his spare time. And he came to
 Brussels all the way back from America. The next person was my mentor - Johannes Schindelin. He's been so supportive during the
 internship and we hear from each other almost every day, so it was great to meet him in person.  
 I also met Olga Telezhnaya, previous Git intern with Outreachy. The interesting thing was that I came across her blog some time
-ago and really enjoyed reading it. Some things I read there really stucked with me and were helpful during the whole process
+ago and really enjoyed reading it. Some things I read there really stuck with me and were helpful during the whole process
 of my internship. I didn't know she will attend, and I'm glad she did. It was interesting to talk to someone who has been
 where I am now, and to see how they're going, and what they have to say.  
   
@@ -212,8 +212,8 @@ areas where Git is used. Speakers from Google, Github and Microsoft talked about
 and performance. Others talked about how they use Git - whether they are game developer, designer, lawyer(?!).  
 I think they all presented Git in the best light and contributed to make Git look like what it is - an awesome software.  
   
-I met a lot of people. They all had their story why they're on Git Merge and what they do for living. I was particulary puzzled
-to meet some of those people and see them later on stage! They were acting like they are regular atendees, but believe me, they
+I met a lot of people. They all had their story why they're on Git Merge and what they do for living. I was particularly puzzled
+to meet some of those people and see them later on stage! They were acting like they are regular attendees, but believe me, they
 are awesome, and so are their talks.  
 What was also pleasing to see is that people are so positive about Outreachy. Everyone I talked to thought that Outreachy is amazing project.
 At the end of the day, I was sad that Git Merge is over. I learned a lot and met great people. I truly hope I'll join it again in future.
@@ -233,4 +233,14 @@ I stopped by almost all stands, and found out about projects I never heard of, a
 After saying all this, there is no surprise in saying that the most important thing for me here was discovery -- I really didn't know how enormous open-source community is, and how many many people are supporting it and contributing. Before Outreachy, I didn't even think about that. I didn't contribute anywhere. If I encountered useful open-source software - I would think "cool", and continue with my life.
 I learned on FOSDEM that there are numerous splendid open-source projects. They are all giving to the community, and so should we, by contributing.  
 
-[3] [https://www.webopedia.com/TERM/C/CDN.html] (https://www.webopedia.com/TERM/C/CDN.html)
+[3] [https://www.webopedia.com/TERM/C/CDN.html](https://www.webopedia.com/TERM/C/CDN.html)
+
+### Final week, final words
+  
+This blog post is about my progress during the Outreachy internship. As I already explained in previous posts, I'm working on project "Turn `git add -i` into built-in" -- essentially translating Perl->C. The Perl script is huge and neither me or my mentor expected for it to be translated, and that is what happened.  
+Command `git add -i` has subcommands: `status`, `update`, `revert`, `add untracked`, `patch`, `diff`, `quit` and `help`. With my internship over, `status` and `help` are being translated and two important functions `list_modified` and `list_and_choose` as well, which will be used by almost all of said commands.  
+At the beginning, I had Daniel Ferreira's (former Git contributor) work as head-start, and this really helped me to take off. Later on, I had to update the code, fix some bugs, refactor and write bunch of code on top of it. I also had to deal with determining proper data structures, regular expressions, user inputs, coloring the output, writing tests, rewriting the code after review, etc. And of course, I didn't do this all by myself. I had help from my mentor -- shoutout to Johannes Schindelin, best mentor out there! 
+  
+Tomorrow is the last day of the internship and I can't believe it came to an end and that I really did it. I can say that I am different person than I was three months ago. I learned so much. I polished my C skills, learned how to better use Git, go around the Perl script, write cleaner code, become part of community, send patches to mailing list, and much more.  
+I went to Git Merge and FOSDEM in Brussels, met some amazing people, and learned more about myself too.
+Most importantly, I realized how much I still need to learn(!) and how important open-source community is.
